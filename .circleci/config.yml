@@ -30,6 +30,7 @@ jobs:
           force: true # force push when pushing to the heroku remote, see: https://devcenter.heroku.com/articles/git
 
 workflows:
+  version: 2
   test_my_app:
     jobs:
       - build_and_test
